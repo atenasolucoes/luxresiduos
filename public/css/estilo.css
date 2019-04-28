@@ -19,6 +19,33 @@
     background-size: cover;
 
 }
+.painel-institucional{
+    background-color: green;
+    height: 200px;;
+    background-image: url("../imagens/fundo2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.painel-servicos{
+    background-color: green;
+    height: 200px;;
+    background-image: url("../imagens/fundo3.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.painel-contato{
+    background-color: green;
+    height: 200px;;
+    background-image: url("../imagens/fundo4.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
 
 
 .nav-link{

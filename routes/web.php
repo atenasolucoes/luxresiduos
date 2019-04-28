@@ -12,5 +12,17 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
 });
+Route::get('/institucional', function(){
+    return view('site.institucional');
+});
+
+Route::get('/servicos', function () {
+    return view('site.servicos');
+});
+
+Route::get('/contato', function () {
+    return view('site.contato');
+});
+
