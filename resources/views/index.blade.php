@@ -1,7 +1,7 @@
  @extends('template')
 
  @section('conteudo')
- 
+
  <section style="background-color: rgba(0,0,0,0)">
      <div class="painel container-fluid">
 
@@ -87,6 +87,7 @@
              $(".abrir").addClass("d-none");
          });
 
+         $(".loading").fadeOut("slow");
 
 
 
@@ -119,5 +120,28 @@
      <span><i class="material-icons vresiduos">close</i></span>
      <p class="text-left p-0 abrir d-none"><i class="material-icons vresiduos">arrow_back_ios</i></p>
      <p class="text-center">Venda seu residuo</p>
+ </div>
+
+ <style>
+     .loading {
+         width: 100%;
+         height: 100%;
+         position: fixed;
+         top: 0px;
+         background-color: white;
+         z-index: 99999;
+         text-align: center;
+
+     }
+
+     .img-load {
+         width: 150px;
+         margin-top: 150px;
+     }
+ </style>
+
+ <div class="loading">
+     <img src="/imagens/icon.png" alt="" class="img-load">
+
  </div>
  @stop
