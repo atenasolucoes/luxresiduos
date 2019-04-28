@@ -47,6 +47,9 @@
                                 <a class="nav-link" href="#">Serviços</a>
                             </li>
                             <li class="nav-item">
+                                <a class="nav-link" href="#">Venda seu resíduo</a>
+                            </li>
+                            <li class="nav-item">
                                 <a class="nav-link" href="#">Contato</a>
                             </li>
                         </ul>
@@ -61,12 +64,40 @@
 
         </div>
     </section>
+    <section class="info p-5  text-center">
+        <h4>Sua referência sobre gerenciamento e destinação de resíduos para a preservação ambiental<h4>
+                <h5> Satisfazer as necessidades do presente sem comprometer a capacidade das gerações futuras de satisfazer as próprias necessidades!</h5>
+                <div class="container-fluid mt-3">
+                    <div class="row">
+                        <div class="col-sm 4 ">
+                            <img src="/imagens/icon.png" alt="" width="50px">
+                            <h5>Item 1</h5>
+                            <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi officia iure modi molestiae provident aperiam ducimus quidem exercitationem reiciendis necessitatibus tenetur id asperiores ab, officiis perferendis fuga sapiente dolores eos!</p>
+                        </div>
+                        <div class="col-sm 4 ">
+                            <img src="/imagens/icon.png" alt="" width="50px">
+                            <h5>Item 1</h5>
+                            <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi officia iure modi molestiae provident aperiam ducimus quidem exercitationem reiciendis necessitatibus tenetur id asperiores ab, officiis perferendis fuga sapiente dolores eos!</p>
+                        </div>
+                        <div class="col-sm 4 ">
+                            <img src="/imagens/icon.png" alt="" width="50px">
+                            <h5>Item 1</h5>
+                            <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi officia iure modi molestiae provident aperiam ducimus quidem exercitationem reiciendis necessitatibus tenetur id asperiores ab, officiis perferendis fuga sapiente dolores eos!</p>
+                        </div>
 
-    <section style="background-color: rgba(0,0,0,0)">
-        <div class="painel container-fluid">
 
+                    </div>
 
+                </div>
+    </section>
+
+    <section class="vendaresiduos">
+        <div class="preto-50 text-center p-3 text-white" style="height:100%;">
+            <p class="mx-auto" style="border-radius:100%; background-color:whitesmoke; width:150px; overflow:hidden;">
+                <img src="/imagens/fabricaverde.png" alt="" style="width: 150px;"></p>
+            <h3>Descubra como pode ser fácil destinar os resíduos da sua empresa</h3>
         </div>
+
     </section>
 
     <script>
@@ -75,22 +106,18 @@
             $(".barra").addClass("preto-50");
             $(".barra-menu").addClass("preto-50, navbar-dark");
             $(".venda").delay(2000).animate({
-                        right: "0px"
-                    });
+                right: "0px"
+            });
             $(document).scroll(function() {
                 var topo = $(document).scrollTop();
 
                 if (topo > 40) {
-                   
+
                     $(".barra").css({
                         background: "white",
                         transition: "2s"
                     });
-                    $(".barra-menu").removeClass("navbar-dark").addClass("navbar-light");
-                    $(".barra-menu").css({
-                        color: "black",
-                        transition: "2s"
-                    });
+                    $(".barra-menu").removeClass("navbar-dark");
                     $(".logo").attr("src", "/imagens/lux.png").fadeIn("slow");
                 } else {
                     $(".barra").removeAttr("style");
@@ -102,21 +129,23 @@
                 }
             });
 
-            $(".vresiduos").click(function () {
+            $(".vresiduos").click(function() {
                 $(".venda").animate({
-                        right: "-270px"
-                    });
-                $(".abrir").removeClass("d-none");    
+                    right: "-270px"
+                });
+                $(".abrir").removeClass("d-none");
             });
 
-            $(".abrir").click(function () {
+            $(".abrir").click(function() {
                 $(".venda").animate({
-                        right: "0px"
-                    });
-                $(".abrir").addClass("d-none");    
+                    right: "0px"
+                });
+                $(".abrir").addClass("d-none");
             });
-         
-         
+
+
+
+
         })
     </script>
     <style>
@@ -125,25 +154,31 @@
             color: white;
             position: fixed;
             right: -300px;
-            top:150px;
+            top: 150px;
             height: 250px;
             width: 300px;
+            border: 1px solid white;
         }
-        .vresiduos{
+
+        .vresiduos {
             cursor: pointer;
         }
-        .abrir{
+
+        .abrir {
             position: absolute;
-            left: 0px;
+            left: 5px;
             top: 100px;
+
         }
     </style>
     <div class="venda text-right ">
-     <span><i class="material-icons vresiduos">close</i></span>
-     <p class="text-left p-0 abrir d-none"><i class="material-icons vresiduos">home</i></p>
+        <span><i class="material-icons vresiduos">close</i></span>
+        <p class="text-left p-0 abrir d-none"><i class="material-icons vresiduos">arrow_back_ios</i></p>
         <p class="text-center">Venda seu residuo</p>
     </div>
-
+    <footer class="p-5">
+        Copyright {{date('Y')}} - Todos os direitos reservados! - Desenvolvido por Herbet Jr. | Atena Agência
+    </footer>
 
 </body>
 

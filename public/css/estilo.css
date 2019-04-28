@@ -2,6 +2,8 @@
     position:fixed;
      width:100%;
     background-color: whitesmoke;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+    z-index: 9999;
 }
 
 .logo{
@@ -11,11 +13,13 @@
 .painel{
     background-color: green;
     height: 600px;;
-    background-image: url("../imagens/fundo2.jpg");
+    background-image: url("../imagens/fundo.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+
 }
+
 
 .nav-link{
     color:gray;
@@ -25,4 +29,17 @@
     border-radius: 5px;
     transition: 0.5s;
     color:white;
+}
+
+.vendaresiduos{
+   background-color: gray;
+    background-image: url("../imagens/coleta.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;  
+    background-attachment: fixed;
+}
+footer{
+    background-color: #00A859;
+    color: white;
 }
