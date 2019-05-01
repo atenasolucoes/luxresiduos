@@ -13,19 +13,24 @@
              <h5> Satisfazer as necessidades do presente sem comprometer a capacidade das gerações futuras de satisfazer as próprias necessidades!</h5>
              <div class="container-fluid mt-3">
                  <div class="row">
-                     <div class="col-sm 4 ">
-                         <img src="/imagens/icon.png" alt="" width="50px">
-                         <h5>Item 1</h5>
+                     <div class="col-sm-3 ">
+                         <img src="/imagens/meioambiente.png" alt="" width="100px">
+                         <h5>Meio Ambiente </h5>
                          <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi officia iure modi molestiae provident aperiam ducimus quidem exercitationem reiciendis necessitatibus tenetur id asperiores ab, officiis perferendis fuga sapiente dolores eos!</p>
                      </div>
-                     <div class="col-sm 4 ">
-                         <img src="/imagens/icon.png" alt="" width="50px">
-                         <h5>Item 1</h5>
+                     <div class="col-sm-3 ">
+                         <img src="/imagens/seguranca.png" alt="" width="100px">
+                         <h5>Segurança do Trabalho </h5>
                          <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi officia iure modi molestiae provident aperiam ducimus quidem exercitationem reiciendis necessitatibus tenetur id asperiores ab, officiis perferendis fuga sapiente dolores eos!</p>
                      </div>
-                     <div class="col-sm 4 ">
-                         <img src="/imagens/icon.png" alt="" width="50px">
-                         <h5>Item 1</h5>
+                     <div class="col-sm-3 ">
+                         <img src="/imagens/engenharia.png" alt="" width="100px">
+                         <h5>Engenharia</h5>
+                         <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi officia iure modi molestiae provident aperiam ducimus quidem exercitationem reiciendis necessitatibus tenetur id asperiores ab, officiis perferendis fuga sapiente dolores eos!</p>
+                     </div>
+                     <div class="col-sm-3 ">
+                         <img src="/imagens/gerenciamento.png" alt="" width="100px">
+                         <h5>Gerenciamento de Resíduos</h5>
                          <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi officia iure modi molestiae provident aperiam ducimus quidem exercitationem reiciendis necessitatibus tenetur id asperiores ab, officiis perferendis fuga sapiente dolores eos!</p>
                      </div>
 
