@@ -127,6 +127,7 @@
          height: 250px;
          width: 300px;
          border: 1px solid white;
+         z-index: 99999
      }
 
      .vresiduos {

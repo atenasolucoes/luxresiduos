@@ -69,9 +69,10 @@
             <div class="col-sm-4 text-center">
               
             </div>
-            <div class="col-sm-4">
-                <h4>Contato</h4>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel illo, nesciunt quae et pariatur impedit explicabo animi temporibus harum iure. Sequi aliquid ad earum error accusantium quo laborum qui nulla.</p>
+            <div class="col-sm-4 text-center">
+                <p cl><i class="material-icons" style="font-size:50px;">contact_phone</i></p>
+                <p>Telefone: (74)98828-0783 | (74)98833-8083</p>
+                <p>E-mail: contatoluxresiduos01@gmail.com</p>
             </div>
         </div>
     </section>
