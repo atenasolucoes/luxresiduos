@@ -22,7 +22,13 @@
         </div>
         <div class="col-sm-6">
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia pariatur et cupiditate reprehenderit asperiores sint repudiandae voluptate ex, consequatur incidunt impedit quos alias temporibus voluptatum odit hic architecto ullam ipsum.
+               Telefone:
+            </p>
+            <p>
+                E-mail:
+            </p>
+            <p>
+                Endereço:
             </p>
         </div>
     </div>

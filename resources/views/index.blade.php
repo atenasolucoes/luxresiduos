@@ -144,7 +144,7 @@
  <div class="venda text-right ">
      <span><i class="material-icons vresiduos">close</i></span>
      <p class="text-left p-0 abrir d-none"><i class="material-icons vresiduos">arrow_back_ios</i></p>
-     <p class="text-center">Venda seu residuo</p>
+     <p class="text-center">Venda seu residuo ( Aqui téra uma chamada para a venda de residuos)</p>
  </div>
 
  <style>
