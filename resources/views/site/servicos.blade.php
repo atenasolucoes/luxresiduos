@@ -16,42 +16,80 @@
 
 <section class="container-fluid">
     <div class="row">
-        <div class="col-sm-12">
-            <h3>Como Trabalhamos</h3>
-        </div>
-        <div class="col-sm-6">
-            <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea aut, ad eveniet dicta dolorum iure perferendis error. Saepe eos dolorem ab laudantium vitae quia impedit, odio ut cupiditate sunt assumenda</h4>
-            <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores similique quibusdam laboriosam quae quidem dolorum id eos adipisci voluptatibus eius cupiditate maxime sunt doloribus, minus alias ducimus aspernatur cumque. Dolorem.
-            </p>
-        </div>
-        <div class="col-sm-6">
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia pariatur et cupiditate reprehenderit asperiores sint repudiandae voluptate ex, consequatur incidunt impedit quos alias temporibus voluptatum odit hic architecto ullam ipsum.
-            </p>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-sm-2">
-            <img src="/imagens/icon-tservico.jpg" alt="" width="100%">
-        </div>
-        <div class="col-sm-2">
-            <img src="/imagens/icon-tservico.jpg" alt="" width="100%">
-        </div>
-        <div class="col-sm-2">
-            <img src="/imagens/icon-tservico.jpg" alt="" width="100%">
-        </div>
-        <div class="col-sm-2">
-            <img src="/imagens/icon-tservico.jpg" alt="" width="100%">
-        </div>
-        <div class="col-sm-2">
-            <img src="/imagens/icon-tservico.jpg" alt="" width="100%">
-        </div>
-        <div class="col-sm-2">
-            <img src="/imagens/icon-tservico.jpg" alt="" width="100%">
-        </div>
+        <div class="col-sm-12 text-center">
+            <h3>Trabalhamos no segmento de engenharia ambiental e
+                segurança do trabalho com enfoque no gerenciamento e destinação de resíduos para a preservação ambiental</h4</h3> </div> </div> <div class="container-fluid mt-3">
+                <div class="row text-center">
+                    <div class="col-sm-3 meioambiente">
+                        <img src="/imagens/meioambiente.png" alt="" width="100px">
+                        <h5>Meio Ambiente </h5>
+                        <hr>
+                        <p> Licenciamento Ambiental</p>
+                        <p>Planos de Controle Ambienta -PCA</p>
+                        <p> Planos de Recuperação de Áreas Degradadas - PRAD</p>
+                        <p> Planos de Gerenciamento de Resíduos Sólidos - PGRS</p>
+                        <p> Relatório de Controle Ambiental - RCA</p>
+                        <p> Relatório Ambiental Preliminar - RAP</p>
+                        <p> Consultoria e Assessoria Ambiental</p>
+                        <p> Cumprimento de Condicionantes</p>
+                        <p> Cadastro Ambiental Rural - CAR</p>
+                        <p> Inventário Florestal</p>
+                        <p>Outorga D´água</p>
+                        <p>Estudos de Fauna e Flora</p>
+                        <p> Auditoria e Perícia Ambiental</p>
+                        <p> Gestão Ambiental</p>
+                        <hr>
+                    </div>
+                    <div class="col-sm-3 seguranca">
+                        <img src="/imagens/seguranca.png" alt="" width="100px">
+                        <h5>Segurança do Trabalho </h5>
+                        <hr>
+                        <p>Prontuário e Treinamento da NR20</p>
+                        <p>NR 23 brigada de incêndio</p>
+                        <p>NR 33 espaço confinados</p>
+                        <p>Primeiros Socorros</p>
+                        <p>Direção defensiva (condução segura de veículos)</p>
+                        <p>Programas de Segurança do Trabalho</p>
+                        <p>PPRA</p>
+                        <p>PCMSO</p>
+                        <p>LTCAT</p>
+                        <hr>
+                    </div>
+                    <div class="col-sm-3 engenharia ">
+                        <img src="/imagens/engenharia.png" alt="" width="100px">
+                        <h5>Engenharia Ambiental</h5>
+                        <hr>
+                        <p>Projeto Arquitetônico</p>
+                        <p>Projeto Hidro Sanitário</p>
+                        <p> Projeto Elétrico</p>
+                        <p> Sist. de Prot. contra Descargas Atmosféricas - SPDA</p>
+                        <p> Projeto de Proteção contra Incêndio e Pânico</p>
+                        <p> Projeto Estrutural</p>
+                        <p>Aterro Sanitário</p>
 
-    </div>
+                        <hr>
+                    </div>
+                    <div class="col-sm-3 gresiduo">
+                        <img src="/imagens/gerenciamento.png" alt="" width="100px">
+                        <h5>Gerenciamento de Resíduos</h5>
+                        <hr>
+                        <p>
+                            Coleta
+                        </p>
+                        <p>
+                            Acondicionamento
+                        </p>
+                        <p>
+                            Disposição final
+                        </p>
+
+                        <hr>
+                    </div>
+
+
+                </div>
+
+        </div>
 </section>
 
 <script>

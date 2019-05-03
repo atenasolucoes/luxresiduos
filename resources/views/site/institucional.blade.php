@@ -9,40 +9,47 @@
 </section>
 <section>
     <div class="pl-5 pt-2">
-       <a href="./" class="link"> Home </a> | Institucional
+        <a href="./" class="link"> Home </a> | Institucional
     </div>
     <hr>
 </section>
 
-<section class="container-fluid">
+<section class="container-fluid quemsomos">
     <div class="row">
-        <div class="col-sm-12">
+        <div class="col-sm-12 text-center">
+            <img src="/imagens/icon.png" alt="" width="70px">
             <h3>Quem somos</h3>
+            <h4 class="text-justify">
+                A LUX RESIDUOS é uma empresa no segmento de engenharia ambiental e
+                segurança do trabalho com enfoque no gerenciamento de resíduos que possibilita
+                garantir a sustentabilidade dos clientes através da parceria equilibrada e sustentável,
+                primando pela responsabilidade socioambiental e respeito à legislação.
+            </h4>
         </div>
-        <div class="col-sm-6">
-            <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea aut, ad eveniet dicta dolorum iure perferendis error. Saepe eos dolorem ab laudantium vitae quia impedit, odio ut cupiditate sunt assumenda</h4>
-            <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores similique quibusdam laboriosam quae quidem dolorum id eos adipisci voluptatibus eius cupiditate maxime sunt doloribus, minus alias ducimus aspernatur cumque. Dolorem.
-            </p>
-        </div>
-        <div class="col-sm-6">
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia pariatur et cupiditate reprehenderit asperiores sint repudiandae voluptate ex, consequatur incidunt impedit quos alias temporibus voluptatum odit hic architecto ullam ipsum.
-            </p>
-        </div>
+
+
+
     </div>
-    <div class="row">
+    <hr>
+    <div class="row text-center">
         <div class="col-sm-4">
+            <img src="/imagens/i1.png" alt="" width="30px;">
             <h3>Missão</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, molestiae! Officiis, odit. Dolores deserunt corporis, magnam maxime soluta, aliquam ea tempora dolor fuga velit molestiae, ad perferendis voluptate illum excepturi.</p>
+            <p>Proporcionar aos nossos clientes eficiência e destinação correta dos resíduos,
+                primando pela responsabilidade socioambiental.</p>
         </div>
         <div class="col-sm-4">
+            <img src="/imagens/i2.png" alt="" width="30px;">
             <h3>Visão</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae voluptatibus fugit sint. Magnam repellendus aperiam perferendis accusantium? Minima fugiat molestiae aut impedit. Sapiente nemo nam inventore dolorem eveniet molestiae quod!</p>
+            <p>A empresa possui uma postura de responsabilidade com os valores ambientais e
+                sociais. Além de fundamentada na preservação do meio ambiente e melhoria da
+                qualidade de vida das pessoas</p>
         </div>
         <div class="col-sm-4">
+            <img src="/imagens/i3.png" alt="" width="30px;">
             <h3>Valores</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique sed ipsam aliquid autem nihil deleniti veniam incidunt beatae deserunt fuga debitis, ipsa reiciendis tempore quam corrupti accusantium officia cumque sequi?</p>
+            <p>Ser empresa sustentável provedora de soluções para destinação correta de
+                resíduos.</p>
         </div>
 
     </div>

@@ -62,11 +62,12 @@
     <section class="container-fluid bg-dark text-light p-2 mt-2">
         <div class="row">
             <div class="col-sm-4">
-                <h4>Lux Resíduos</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias eius, est voluptas totam nulla voluptatum adipisci, dignissimos distinctio labore ipsam magni quaerat molestiae reprehenderit ea qui, incidunt tempora temporibus saepe?</p>
+          
+                <p> A LUX RESIDUOS é uma empresa no segmento de engenharia ambiental e
+                    segurança do trabalho com enfoque no gerenciamento de resíduos</p>
             </div>
-            <div class="col-sm-4">
-                <p>Descubra como pode ser fácil destinar os resíduos da suas empresa</p>
+            <div class="col-sm-4 text-center">
+              
             </div>
             <div class="col-sm-4">
                 <h4>Contato</h4>
@@ -78,7 +79,7 @@
         Copyright {{date('Y')}} - Todos os direitos reservados! - Desenvolvido por Herbet Jr. | Atena Agência
     </footer>
 
-    
+
 
 </body>
 
