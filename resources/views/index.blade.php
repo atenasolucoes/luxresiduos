@@ -19,7 +19,7 @@
                  <h5>Meio Ambiente </h5>
                  <p class="text-justify">
                      A Lux Resíduos possui experiência e competência para te auxiliar em alguns assuntos: Licenciamento Ambiental; Planos de Controle Ambienta -PCA; Planos de Recuperação de Áreas Degradadas - PRAD; Planos de Gerenciamento de Resíduos Sólidos - PGRS, entre outros;
-                     <a href="#" class="text-success">Ver mais</a>
+                     <a href="/servicos" class="text-success">Ver mais</a>
                  </p>
 
 
@@ -29,7 +29,7 @@
                  <h5>Segurança do Trabalho </h5>
                  <p class="text-justify">
                      Te ajudamos no cumprimento da Lei, prevenção de riscos, redução de acidentes, primeiros socorros, entre outros.
-                     <a href="#" class="text-danger">Ver mais</a>
+                     <a href="/servicos" class="text-danger">Ver mais</a>
                  </p>
 
              </div>
@@ -37,7 +37,7 @@
                  <img src="/imagens/engenharia.png" alt="" width="100px">
                  <h5>Engenharia Ambiental</h5>
                  <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi officia iure modi molestiae provident aperiam ducimus quidem exercitationem reiciendis necessitatibus tenetur id asperiores ab, officiis perferendis fuga sapiente dolores eos!
-                     <a href="#" class="text-warning">Ver mais</a>
+                     <a href="/servicos" class="text-warning">Ver mais</a>
                  </p>
 
 
@@ -46,7 +46,7 @@
                  <img src="/imagens/gerenciamento.png" alt="" width="100px">
                  <h5>Gerenciamento de Resíduos</h5>
                  <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi officia iure modi molestiae provident aperiam ducimus quidem exercitationem reiciendis necessitatibus tenetur id asperiores ab, officiis perferendis fuga sapiente dolores eos!
-                     <a href="#" class="text-info">Ver mais</a>
+                     <a href="/servicos" class="text-info">Ver mais</a>
                  </p>
 
 
@@ -128,6 +128,7 @@
          width: 300px;
          border: 1px solid white;
          z-index: 99999;
+         padding-left:50px;
      }
 
      .vresiduos {
