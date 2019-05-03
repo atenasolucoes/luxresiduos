@@ -61,16 +61,16 @@
     @yield('conteudo')
     <section class="container-fluid bg-dark text-light p-2 mt-2">
         <div class="row">
-            <div class="col-sm-4">
-          
+            <div class="col-sm-4 text-justify">
+                <p class="text-center"><i class="material-icons" style="font-size:50px;">domain</i></p>
                 <p> A LUX RESIDUOS é uma empresa no segmento de engenharia ambiental e
                     segurança do trabalho com enfoque no gerenciamento de resíduos</p>
             </div>
             <div class="col-sm-4 text-center">
-              
+
             </div>
             <div class="col-sm-4 text-center">
-                <p cl><i class="material-icons" style="font-size:50px;">contact_phone</i></p>
+                <p ><i class="material-icons" style="font-size:50px;">contact_phone</i></p>
                 <p>Telefone: (74)98828-0783 | (74)98833-8083</p>
                 <p>E-mail: contatoluxresiduos01@gmail.com</p>
             </div>
@@ -81,19 +81,21 @@
     </footer>
 
 
-<!--Start of Tawk.to Script-->
-<script type="text/javascript">
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/5ccbc375d07d7e0c6391b025/default';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
-</script>
-<!--End of Tawk.to Script-->
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+        var Tawk_API = Tawk_API || {},
+            Tawk_LoadStart = new Date();
+        (function() {
+            var s1 = document.createElement("script"),
+                s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/5ccbc375d07d7e0c6391b025/default';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+        })();
+    </script>
+    <!--End of Tawk.to Script-->
 </body>
 
 </html>
