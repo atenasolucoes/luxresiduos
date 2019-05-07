@@ -63,7 +63,7 @@
          <p class="mx-auto" style="border-radius:100%; background-color:whitesmoke; width:150px; overflow:hidden;">
              <img src="/imagens/fabricaverde.png" alt="" style="width: 150px;"></p>
          <h3>Descubra como pode ser fácil destinar os resíduos da sua empresa</h3>
-    
+
      </div>
 
  </section>
@@ -111,7 +111,7 @@
              $(".abrir").addClass("d-none");
          });
 
-         $(".loading").fadeOut("slow");
+
 
 
 
@@ -128,7 +128,7 @@
          width: 300px;
          border: 1px solid white;
          z-index: 99999;
-         padding-left:50px;
+         padding-left: 50px;
      }
 
      .vresiduos {
@@ -168,6 +168,15 @@
 
  <div class="loading">
      <img src="/imagens/icon.png" alt="" class="img-load">
+     <h3 class="text-success">Carregando...</h3>
 
  </div>
+ <script>
+     $(document).ready(function() {
+         setInterval(() => {
+              $(".loading").fadeOut("slow");
+         }, 4000);
+        
+     })
+ </script>
  @stop
