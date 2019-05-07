@@ -175,7 +175,7 @@
      $(document).ready(function() {
          setInterval(() => {
               $(".loading").fadeOut("slow");
-         }, 4000);
+         }, 2000);
         
      })
  </script>
