@@ -59,13 +59,14 @@
  </section>
 
  <section class="vendaresiduos">
-     <div class="preto-50 text-center p-3 text-white" style="height:100%;">
-         <p class="mx-auto" style="border-radius:100%; background-color:whitesmoke; width:150px; overflow:hidden;">
-             <img src="/imagens/fabricaverde.png" alt="" style="width: 150px;"></p>
-         <h3>Descubra como pode ser fácil destinar os resíduos da sua empresa</h3>
+     <a href="#">
+         <div class="preto-50 text-center p-3 text-white" style="height:100%;">
+             <p class="mx-auto" style="border-radius:100%; background-color:whitesmoke; width:150px; overflow:hidden;">
+                 <img src="/imagens/fabricaverde.png" alt="" style="width: 150px;"></p>
+             <h3>Descubra como pode ser fácil destinar os resíduos da sua empresa</h3>
 
-     </div>
-
+         </div>
+     </a>
  </section>
 
  <script>
@@ -174,9 +175,9 @@
  <script>
      $(document).ready(function() {
          setInterval(() => {
-              $(".loading").fadeOut("slow");
+             $(".loading").fadeOut("slow");
          }, 2000);
-        
+
      })
  </script>
  @stop
