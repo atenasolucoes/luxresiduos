@@ -25,7 +25,7 @@
                 <b>Telefone:</b>
             </p>
             <p>
-                <b>Email: </b> contatoluxresiduos@gmail.com
+                <b>Email: </b> contatoluxresiduos01@gmail.com
             </p>
             <p>
                 <b>Endereço: </b> MRG BR 235, ZONA RURAL, CASA NOVA-BA
