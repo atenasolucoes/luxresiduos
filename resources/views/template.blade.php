@@ -61,16 +61,36 @@
     @yield('conteudo')
     <section class="container-fluid bg-dark text-light p-2 mt-2">
         <div class="row">
+            <div class="col-sm-4 text-center">
+                <p>Acesso rápido</p>
+                <ul class="navbar-nav justify-content-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./">
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/institucional">Institucional</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/servicos">Serviços</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Venda seu resíduo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/contato">Contato</a>
+                    </li>
+                </ul>
+            </div>
             <div class="col-sm-4 text-justify">
                 <p class="text-center"><i class="material-icons" style="font-size:50px;">domain</i></p>
                 <p> A LUX RESIDUOS é uma empresa no segmento de engenharia ambiental e
                     segurança do trabalho com enfoque no gerenciamento de resíduos</p>
             </div>
-            <div class="col-sm-4 text-center">
 
-            </div>
             <div class="col-sm-4 text-center">
-                <p ><i class="material-icons" style="font-size:50px;">contact_phone</i></p>
+                <p><i class="material-icons" style="font-size:50px;">contact_phone</i></p>
                 <p>Telefone: (74)98828-0783 | (74)98833-8083</p>
                 <p>E-mail: contatoluxresiduos01@gmail.com</p>
             </div>
