@@ -18,11 +18,14 @@
     <div class="row">
 
         <div class="col-sm-6">
-            <img src="/imagens/orcamento.png" class="w-100" alt="">
+            <a href="/contato"> <img src="/imagens/orcamento.png" class="w-100" alt=""></a>
         </div>
         <div class="col-sm-6">
+            <h1 class="p-5 text-justify">Lucrar com seu resíduo nunca foi tão fácil, veja na lista abaixo quais resíduos podem ter dar lucro. </h1>
+            
 
         </div>
+
 
         <div class="col-sm-12 text-center">
             <hr>
