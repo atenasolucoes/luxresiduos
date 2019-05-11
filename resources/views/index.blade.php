@@ -59,7 +59,7 @@
  </section>
 
  <section class="vendaresiduos">
-     <a href="#">
+     <a href="/vendaseuresiduo">
          <div class="preto-50 text-center p-3 text-white" style="height:100%;">
              <p class="mx-auto" style="border-radius:100%; background-color:whitesmoke; width:150px; overflow:hidden;">
                  <img src="/imagens/fabricaverde.png" alt="" style="width: 150px;"></p>
@@ -121,6 +121,9 @@
  <style>
      .venda {
          background-color: green;
+         background-image: url("/imagens/clique.png");
+         background-position: center;
+         background-size: contain;
          color: white;
          position: fixed;
          right: -300px;
@@ -143,10 +146,15 @@
 
      }
  </style>
+
  <div class="venda text-right ">
      <span><i class="material-icons vresiduos">close</i></span>
      <p class="text-left p-0 abrir d-none"><i class="material-icons vresiduos">arrow_back_ios</i></p>
-     <p class="text-center">Venda seu residuo ( Aqui terá uma chamada para a venda de residuos)</p>
+     
+     <a href="/vendaseuresiduo"><div style="height:100%;">
+
+     </div></a>
+    
  </div>
 
  <style>

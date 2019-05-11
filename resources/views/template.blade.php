@@ -47,7 +47,7 @@
                                 <a class="nav-link" href="/servicos">Serviços</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Venda seu resíduo</a>
+                                <a class="nav-link" href="vendaseuresiduo">Venda seu resíduo</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="/contato">Contato</a>
@@ -76,7 +76,7 @@
                         <a class="nav-link" href="/servicos">Serviços</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Venda seu resíduo</a>
+                        <a class="nav-link" href="/vendaseuresiduo">Venda seu resíduo</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/contato">Contato</a>

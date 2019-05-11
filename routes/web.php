@@ -26,3 +26,7 @@ Route::get('/contato', function () {
     return view('site.contato');
 });
 
+Route::get('/vendaseuresiduo', function () {
+    return view('site.vendaseuresiduo');
+});
+
