@@ -36,7 +36,10 @@
              <div class="col-sm-3 ">
                  <img src="/imagens/engenharia.png" alt="" width="100px">
                  <h5>Engenharia Ambiental</h5>
-                 <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi officia iure modi molestiae provident aperiam ducimus quidem exercitationem reiciendis necessitatibus tenetur id asperiores ab, officiis perferendis fuga sapiente dolores eos!
+                 <p class="text-justify">Projeto Arquitetônico;
+                     Projeto Hidro Sanitário;
+                     Projeto Elétrico;
+                     Sist. de Prot. contra Descargas Atmosféricas - SPDA;
                      <a href="/servicos" class="text-warning">Ver mais</a>
                  </p>
 
@@ -45,7 +48,7 @@
              <div class="col-sm-3 ">
                  <img src="/imagens/gerenciamento.png" alt="" width="100px">
                  <h5>Gerenciamento de Resíduos</h5>
-                 <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi officia iure modi molestiae provident aperiam ducimus quidem exercitationem reiciendis necessitatibus tenetur id asperiores ab, officiis perferendis fuga sapiente dolores eos!
+                 <p class="text-justify">Coleta, acondicionamento e disposição final de resíduos
                      <a href="/servicos" class="text-info">Ver mais</a>
                  </p>
 
@@ -150,11 +153,13 @@
  <div class="venda text-right ">
      <span><i class="material-icons vresiduos bg-dark">close</i></span>
      <p class="text-left p-0 abrir d-none"><i class="material-icons vresiduos">arrow_back_ios</i></p>
-     
-     <a href="/vendaseuresiduo"><div style="height:100%;">
 
-     </div></a>
-    
+     <a href="/vendaseuresiduo">
+         <div style="height:100%;">
+
+         </div>
+     </a>
+
  </div>
 
  <style>
