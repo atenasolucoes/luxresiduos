@@ -148,7 +148,7 @@
  </style>
 
  <div class="venda text-right ">
-     <span><i class="material-icons vresiduos">close</i></span>
+     <span><i class="material-icons vresiduos bg-dark">close</i></span>
      <p class="text-left p-0 abrir d-none"><i class="material-icons vresiduos">arrow_back_ios</i></p>
      
      <a href="/vendaseuresiduo"><div style="height:100%;">
