@@ -44,7 +44,7 @@
                                 <a class="nav-link" href="/institucional">Institucional</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="/servicos">Serviços</a>
+                                <a class="nav-link" href="/servicos">Nossos serviços</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="vendaseuresiduo">Venda seu resíduo</a>
@@ -73,7 +73,7 @@
                         <a class="nav-link" href="/institucional">Institucional</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/servicos">Serviços</a>
+                        <a class="nav-link" href="/servicos">Nossos serviços</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/vendaseuresiduo">Venda seu resíduo</a>

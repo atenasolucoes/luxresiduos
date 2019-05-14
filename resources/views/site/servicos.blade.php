@@ -3,13 +3,13 @@
 @section('conteudo')
 <section class="painel-servicos">
     <div style="height:100%" class="preto-50 text-white text-center">
-        <h3 style="padding-top:80px;">Serviços</h3>
+        <h3 style="padding-top:80px;">Nossos serviços</h3>
 
     </div>
 </section>
 <section>
     <div class="pl-5 pt-2">
-        <a href="./" class="link"> Home </a> | Serviços
+        <a href="./" class="link"> Home </a> | Nossos serviços
     </div>
     <hr>
 </section>
@@ -22,7 +22,7 @@
                 <div class="row text-center">
                     <div class="col-sm-3 meioambiente">
                         <img src="/imagens/meioambiente.png" alt="" width="100px">
-                        <h5>Meio Ambiente </h5>
+                        <h5>Engenharia ambiental </h5>
                         <hr>
                         <p> Licenciamento Ambiental</p>
                         <p>Planos de Controle Ambienta -PCA</p>
@@ -57,7 +57,7 @@
                     </div>
                     <div class="col-sm-3 engenharia ">
                         <img src="/imagens/engenharia.png" alt="" width="100px">
-                        <h5>Engenharia Ambiental</h5>
+                        <h5>Engenharia</h5>
                         <hr>
                         <p>Projeto Arquitetônico</p>
                         <p>Projeto Hidro Sanitário</p>
