@@ -91,7 +91,7 @@
 
             <div class="col-sm-4 text-center">
                 <p><i class="material-icons" style="font-size:50px;">contact_phone</i></p>
-                <p>Telefone: (74)98828-0783 | (74)98833-8083</p>
+                <p>Telefone:(74) 98811-7964 | (74) 98828-0783 | (74) 98833-8083</p>
                 <p>E-mail: contatoluxresiduos01@gmail.com</p>
             </div>
         </div>

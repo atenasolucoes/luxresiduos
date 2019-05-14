@@ -22,7 +22,10 @@
         </div>
         <div class="col-sm-6">
             <p>
-                <b>Telefone:</b>
+                <b>Telefone:</b>(74) 98811-7964 | (74) 98828-0783 | (74) 98833-8083
+            </p>
+            <p>
+                <b>WhatsApp:</b>(74) 98811-7964 | <a href="https://api.whatsapp.com/send?phone=5574988117964"> Conversa agora! </a>
             </p>
             <p>
                 <b>Email: </b> contatoluxresiduos01@gmail.com
