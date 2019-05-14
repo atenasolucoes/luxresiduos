@@ -32,49 +32,49 @@
             <img src="/imagens/reciclaveis.png" width="100px;" alt="">
             <h3>Resíduos Recicláveis</h3>
         </div>
-        <div class="col-sm-3 text-center mt-1">
+        <div class="col-sm-2 text-center mt-1">
             <img src="/imagens/plastico.png" width="25px" alt="">
             <h4>Plástico</h4>
            
         </div>
-        <div class="col-sm-3 text-center mt-1">
+        <div class="col-sm-2 text-center mt-1">
             <img src="/imagens/metal.png" width="25px" alt="">
             <h4>Metais</h4>
           
         </div>
-        <div class="col-sm-3 text-center mt-1">
+        <div class="col-sm-2 text-center mt-1">
             <img src="/imagens/papel.png" width="25px" alt="">
             <h4>Papel e papelão</h4>
             
         </div>
-        <div class="col-sm-3 text-center mt-1">
+        <div class="col-sm-2 text-center mt-1">
             <img src="/imagens/vidro.png" width="25px" alt="">
             <h4>Vidro</h4>
            
         </div>
-        <div class="col-sm-3 text-center mt-1">
+        <div class="col-sm-2 text-center mt-1">
             <img src="/imagens/madeira.png" width="25px" alt="">
             <h4>Madeira</h4>
            
 
         </div>
 
-        <div class="col-sm-3 text-center mt-1">
+        <div class="col-sm-2 text-center mt-1">
             <img src="/imagens/plastico.png" width="25px" alt="">
             <h4>Borracha</h4>
            
         </div>
-        <div class="col-sm-3 text-center mt-1">
+        <div class="col-sm-2 text-center mt-1">
             <img src="/imagens/metal.png" width="25px" alt="">
             <h4>Sucata em geral</h4>
            
         </div>
-        <div class="col-sm-3 text-center mt-1">
+        <div class="col-sm-2 text-center mt-1">
             <img src="/imagens/organico.png" width="25px" alt="">
             <h4>Orgânicos</h4>
            
         </div>
-        <div class="col-sm-3 text-center mt-1">
+        <div class="col-sm-2 text-center mt-1">
             <img src="/imagens/organico.png" width="25px" alt="">
             <h4>Sobras de produtos</h4>
           
