@@ -1,7 +1,10 @@
  @extends('template')
 
  @section('conteudo')
-
+ @inject('conteudo', 'luxresiduos\Site')
+ @php
+ $site = $conteudo->all()->first();
+ @endphp
  <section style="background-color: rgba(0,0,0,0)">
      <div class="painel container-fluid">
 
@@ -16,41 +19,55 @@
          <div class="row">
              <div class="col-sm-3">
                  <img src="/imagens/meioambiente.png" alt="" width="100px">
-                 <h5>Meio Ambiente </h5>
-                 <p class="text-justify">
-                     A Lux Resíduos possui experiência e competência para te auxiliar em alguns assuntos: Licenciamento Ambiental; Planos de Controle Ambienta -PCA; Planos de Recuperação de Áreas Degradadas - PRAD; Planos de Gerenciamento de Resíduos Sólidos - PGRS, entre outros;
+                 <h5>Engenharia Ambiental </h5>
+                 <div class="text-justify">
+                     @isset($site)
+                     <?php echo $site->home_eng_ambiental; ?>
+                     @endisset
+                     <!-- A Lux Resíduos possui experiência e competência para te auxiliar em alguns assuntos: Licenciamento Ambiental; Planos de Controle Ambienta -PCA; Planos de Recuperação de Áreas Degradadas - PRAD; Planos de Gerenciamento de Resíduos Sólidos - PGRS, entre outros; -->
                      <a href="/servicos" class="text-success">Ver mais</a>
-                 </p>
+                 </div>
 
 
              </div>
              <div class="col-sm-3">
                  <img src="/imagens/seguranca.png" alt="" width="100px">
                  <h5>Segurança do Trabalho </h5>
-                 <p class="text-justify">
-                     Te ajudamos no cumprimento da Lei, prevenção de riscos, redução de acidentes, primeiros socorros, entre outros.
+                 <div class="text-justify">
+                     @isset($site)
+                     <?php echo $site->home_seguranca; ?>
+                     @endisset
+                     <!-- Te ajudamos no cumprimento da Lei, prevenção de riscos, redução de acidentes, primeiros socorros, entre outros. -->
                      <a href="/servicos" class="text-danger">Ver mais</a>
-                 </p>
+                 </div>
 
              </div>
              <div class="col-sm-3 ">
                  <img src="/imagens/engenharia.png" alt="" width="100px">
-                 <h5>Engenharia Ambiental</h5>
-                 <p class="text-justify">Projeto Arquitetônico;
+                 <h5>Engenharia</h5>
+                 <div class="text-justify">
+                     @isset($site)
+                     <?php echo $site->home_engenharia; ?>
+                     @endisset
+                     <!-- Projeto Arquitetônico;
                      Projeto Hidro Sanitário;
                      Projeto Elétrico;
-                     Sist. de Prot. contra Descargas Atmosféricas - SPDA;
+                     Sist. de Prot. contra Descargas Atmosféricas - SPDA; -->
                      <a href="/servicos" class="text-warning">Ver mais</a>
-                 </p>
+                 </div>
 
 
              </div>
              <div class="col-sm-3 ">
                  <img src="/imagens/gerenciamento.png" alt="" width="100px">
                  <h5>Gerenciamento de Resíduos</h5>
-                 <p class="text-justify">Coleta, acondicionamento e disposição final de resíduos
+                 <div class="text-justify">
+                     @isset($site)
+                     <?php echo $site->home_gerenciamento; ?>
+                     @endisset
+                     <!-- Coleta, acondicionamento e disposição final de resíduos -->
                      <a href="/servicos" class="text-info">Ver mais</a>
-                 </p>
+                 </div>
 
 
              </div>

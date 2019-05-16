@@ -30,3 +30,12 @@ Route::get('/vendaseuresiduo', function () {
     return view('site.vendaseuresiduo');
 });
 
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+Route::post('/index', 'HomeController@home')->name('index');
+Route::post('/institucional', 'HomeController@institucional')->name('institucional');
+Route::post('/servicos', 'HomeController@servicos')->name('servicos');
+Route::post('/venda', 'HomeController@venda_texto')->name('venda');
+Route::post('/contato', 'HomeController@contato')->name('contato');

@@ -1,6 +1,12 @@
 @extends('template')
 
 @section('conteudo')
+
+@inject('conteudo', 'luxresiduos\Site')
+@php
+$site = $conteudo->all()->first();
+$zap = str_replace(array('-', '(', ')', ' '), '', ''.$site->contato_whatsapp.'');
+@endphp
 <section class="painel-contato">
     <div style="height:100%" class="preto-50 text-white text-center">
         <h3 style="padding-top:80px;">Contato</h3>
@@ -22,16 +28,16 @@
         </div>
         <div class="col-sm-6">
             <p>
-                <b>Telefone:</b>(74) 98811-7964 | (74) 98828-0783 | (74) 98833-8083
+                <b>Telefone:</b>@isset($site)<?php echo $site->contato_telefone; ?>@endisset
             </p>
             <p>
-                <b>WhatsApp:</b>(74) 98811-7964 | <a href="https://api.whatsapp.com/send?phone=5574988117964"> Conversa agora! </a>
+                <b>WhatsApp:</b>@isset($site)<?php echo $site->contato_whatsapp; ?>@endisset | <a href="https://api.whatsapp.com/send?phone=55{{$zap}}"> Conversa agora! </a>
             </p>
             <p>
-                <b>Email: </b> contatoluxresiduos01@gmail.com
+                <b>Email: </b> @isset($site)<?php echo $site->contato_email; ?>@endisset
             </p>
             <p>
-                <b>Endereço: </b> MRG BR 235, ZONA RURAL, CASA NOVA-BA
+                <b>Endereço: </b> @isset($site)<?php echo $site->contato_endereco; ?>@endisset
             </p>
             <p>
                 <a href="https://tawk.to/chat/5ccbc375d07d7e0c6391b025/default" target="_blank" class="btn btn-block  btn-success">Clique aqui para contato via chat</a>

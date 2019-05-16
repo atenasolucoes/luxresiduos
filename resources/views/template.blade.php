@@ -18,6 +18,10 @@
 </head>
 
 <body>
+    @inject('conteudo', 'luxresiduos\Site')
+    @php
+    $site = $conteudo->all()->first();
+    @endphp
     <header class="barra ">
         <div class="row p-2">
             <div class="col-sm-4 text-center">
@@ -85,8 +89,9 @@
             </div>
             <div class="col-sm-4 text-justify">
                 <p class="text-center"><i class="material-icons" style="font-size:50px;">domain</i></p>
-                <p> A LUX RESIDUOS é uma empresa no segmento de engenharia ambiental e
-                    segurança do trabalho com enfoque no gerenciamento de resíduos</p>
+                <!-- <p> A LUX RESIDUOS é uma empresa no segmento de engenharia ambiental e
+                    segurança do trabalho com enfoque no gerenciamento de resíduos</p> -->
+                    <?php echo $site->institucional_resumo_quem_somos; ?>
             </div>
 
             <div class="col-sm-4 text-center">

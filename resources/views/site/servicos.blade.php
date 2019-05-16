@@ -1,6 +1,10 @@
 @extends('template')
 
 @section('conteudo')
+@inject('conteudo', 'luxresiduos\Site')
+@php
+$site = $conteudo->all()->first();
+@endphp
 <section class="painel-servicos">
     <div style="height:100%" class="preto-50 text-white text-center">
         <h3 style="padding-top:80px;">Nossos serviços</h3>
@@ -24,7 +28,10 @@
                         <img src="/imagens/meioambiente.png" alt="" width="100px">
                         <h5>Engenharia ambiental </h5>
                         <hr>
-                        <p> Licenciamento Ambiental</p>
+                        @isset($site)
+                        <?php echo $site->servicos_eng_ambiental; ?>
+                        @endisset
+                        <!-- <p> Licenciamento Ambiental</p>
                         <p>Planos de Controle Ambienta -PCA</p>
                         <p> Planos de Recuperação de Áreas Degradadas - PRAD</p>
                         <p> Planos de Gerenciamento de Resíduos Sólidos - PGRS</p>
@@ -37,14 +44,17 @@
                         <p>Outorga D´água</p>
                         <p>Estudos de Fauna e Flora</p>
                         <p> Auditoria e Perícia Ambiental</p>
-                        <p> Gestão Ambiental</p>
+                        <p> Gestão Ambiental</p> -->
                         <hr>
                     </div>
                     <div class="col-sm-3 seguranca">
                         <img src="/imagens/seguranca.png" alt="" width="100px">
                         <h5>Segurança do Trabalho </h5>
                         <hr>
-                        <p>Prontuário e Treinamento da NR20</p>
+                        @isset($site)
+                        <?php echo $site->servicos_seguranca; ?>
+                        @endisset
+                        <!-- <p>Prontuário e Treinamento da NR20</p>
                         <p>NR 23 brigada de incêndio</p>
                         <p>NR 33 espaço confinados</p>
                         <p>Primeiros Socorros</p>
@@ -52,20 +62,23 @@
                         <p>Programas de Segurança do Trabalho</p>
                         <p>PPRA</p>
                         <p>PCMSO</p>
-                        <p>LTCAT</p>
+                        <p>LTCAT</p> -->
                         <hr>
                     </div>
                     <div class="col-sm-3 engenharia ">
                         <img src="/imagens/engenharia.png" alt="" width="100px">
                         <h5>Engenharia</h5>
                         <hr>
-                        <p>Projeto Arquitetônico</p>
+                        @isset($site)
+                        <?php echo $site->servicos_engenharia; ?>
+                        @endisset
+                        <!-- <p>Projeto Arquitetônico</p>
                         <p>Projeto Hidro Sanitário</p>
                         <p> Projeto Elétrico</p>
                         <p> Sist. de Prot. contra Descargas Atmosféricas - SPDA</p>
                         <p> Projeto de Proteção contra Incêndio e Pânico</p>
                         <p> Projeto Estrutural</p>
-                        <p>Aterro Sanitário</p>
+                        <p>Aterro Sanitário</p> -->
 
                         <hr>
                     </div>
@@ -73,7 +86,10 @@
                         <img src="/imagens/gerenciamento.png" alt="" width="100px">
                         <h5>Gerenciamento de Resíduos</h5>
                         <hr>
-                        <p>
+                        @isset($site)
+                        <?php echo $site->servicos_gerenciamento; ?>
+                        @endisset
+                        <!-- <p>
                             Coleta
                         </p>
                         <p>
@@ -81,7 +97,7 @@
                         </p>
                         <p>
                             Disposição final
-                        </p>
+                        </p> -->
 
                         <hr>
                     </div>
