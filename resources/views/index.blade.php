@@ -88,6 +88,38 @@
          </div>
      </a>
  </section>
+ <section class="solucao container-fluid p-5">
+     <div class="pt-3 pb-3 text-center">
+         <h3>A SOLUÇÃO IDEAL PARA O GERECIAMENTO DE RESÍDUOS SÓLIDOS NA SUA EMPRESA</h3>
+     </div>
+     <div class="row">
+         <div class="col-sm-3 text-center">
+             <img src="/imagens/coleta-agenda.png" alt="" style="width:100px; height:100px;">
+             <p>COLETA AGENDADA DE RESÍDUOS SOLIDOS</p>
+
+         </div>
+         <div class="col-sm-2 text-center">
+             <img src="/imagens/armazenamento.png" alt="" style="width:100px; height:100px;">
+             <p>ARMAZENAMENTO ADEQUADO PARA TODAS AS CLASSES DE RESÍDUOS </p>
+
+         </div>
+         <div class="col-sm-2 text-center">
+             <img src="/imagens/descaracterizacao.png" alt="" style="width:100px; height:100px;">
+             <p>DESCARACTERIZAÇÃO DOS RESÍDUOS</p>
+
+         </div>
+         <div class="col-sm-2 text-center">
+             <img src="/imagens/descarte.png" alt="" style="width:100px; height:100px;">
+             <p>DESCARTE E DESTINAÇÃO FINAL CORRETA PARA CADA TIPO DE RESÍDUO</p>
+         </div>
+         <div class="col-sm-3 text-center">
+             <img src="/imagens/doc.png" alt="" style="width:100px; height:100px;">
+             <P>EMISSÃO DE TODA DOCUMENTAÇÃO NECESSÁRIA</p>
+
+         </div>
+
+     </div>
+ </section>
 
  <script>
      $(document).ready(function() {
